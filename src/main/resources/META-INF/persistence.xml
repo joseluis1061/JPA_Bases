@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <!--Define una unidad de persistencia local - Cada unidad son las reglas para conectarse a una BD-->
+    <persistence-unit name="myPersistenceUnit" transaction-type="RESOURCE_LOCAL">
+        <!--Proveedor de persistencia-->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <!-- Nombre de la clase entidad Cada entidad es una tabla de la BD-->
+        <class></class>
+        <!-- Propiedades de conexión -->
+        <properties>
+            <!-- Url de la BD-->
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/masterblog"/>
+            <!-- Nombre de usuario-->
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <!-- Password de BD-->
+            <property name="javax.persistence.jdbc.password" value="1061ivalostia"/>
+            <!-- Driver de conexión a la  BD-->
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+        </properties>
+    </persistence-unit>
+</persistence>
