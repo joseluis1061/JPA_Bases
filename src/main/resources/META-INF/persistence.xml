@@ -5,7 +5,9 @@
         <!--Proveedor de persistencia-->
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <!-- Nombre de la clase entidad Cada entidad es una tabla de la BD-->
-        <class></class>
+        <class>
+            org.jpa_intro.enity.User
+        </class>
         <!-- Propiedades de conexión -->
         <properties>
             <!-- Url de la BD-->

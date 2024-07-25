@@ -8,9 +8,6 @@ public class User {
   //  Indicamos el id y las columnas de la tabla
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY) // Id generado automaticamente autoincremental
-  public String getEmail() {
-    return email;
-  }
 
   // El nombre de la columna debe ser igual al de la BD
   @Column(name = "user_id")
@@ -70,9 +67,9 @@ public class User {
     this.user_id = user_id;
   }
 
-
-
-
+  public String getEmail() {
+    return email;
+  }
 
   @Override
   public String toString() {
