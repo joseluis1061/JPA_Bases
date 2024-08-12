@@ -15,7 +15,7 @@
             <!-- Nombre de usuario-->
             <property name="javax.persistence.jdbc.user" value="root"/>
             <!-- Password de BD-->
-            <property name="javax.persistence.jdbc.password" value="passs"/>
+            <property name="javax.persistence.jdbc.password" value="1061ivalostia"/>
             <!-- Driver de conexión a la  BD-->
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
 
